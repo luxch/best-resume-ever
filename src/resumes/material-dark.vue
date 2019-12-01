@@ -104,7 +104,10 @@
       <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
         <div class="subheadline">{{experience.timeperiod}}</div>
         <p class="info">
-          {{experience.description}}
+          {{experience.description.time}} - {{experience.description.project}}
+        </p>
+        <p class="info">
+          {{experience.description.value}}
         </p>
     </div>
     <div class="section-headline">{{ lang.education }}</div>

@@ -1,7 +1,7 @@
 <template>
   <div class="resume">
     <div class="banner">
-      <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
+      <div class="banner__fullname">{{ person.name.last }}{{ person.name.first }}</div>
       <div class="banner__position">{{ person.position }}</div>
       <div v-if="person.birth" class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
     </div>
@@ -89,6 +89,26 @@
               <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
             </a>
           </div>
+
+         <div class="section">
+          <div class="section-headline">
+            <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
+          </div>
+
+          <div class="section-content">
+            <a
+              v-for="(education, index) in person.education"
+              class="section-content__item"
+              :key="index"
+              :href="education.website">
+
+              <span class="section-content__header"> {{ education.school }} </span>
+              <span class="section-content__subheader">{{ education.degree }}</span>
+              <span class="section-content__text"> {{ education.timeperiod }} </span>
+              <span class="section-content__text--light"> {{ education.description }} </span>
+            </a>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -113,26 +133,6 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="section">
-          <div class="section-headline">
-            <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
-          </div>
-
-          <div class="section-content">
-            <a
-              v-for="(education, index) in person.education"
-              class="section-content__item"
-              :key="index"
-              :href="education.website">
-
-              <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
-              <span class="section-content__text--light"> {{ education.description }} </span>
             </a>
           </div>
         </div>
