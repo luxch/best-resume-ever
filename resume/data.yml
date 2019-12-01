@@ -2,7 +2,7 @@
 name:
   first: 璐祥
   last: 陈
-about: 有4年半工作经验，参与过多个不同项目，技术比较全面。工作中主动学习好的工作方式。责任心很强，有非常强理解新技术新事物的能力。
+about: 有4年半工作经验，参与过多个不同项目，技术比较全面。工作中主动改进工作方式，善于学习应用新技术。责任心很强，具有良好的团队协作能力。
 position: 软件工程师
 
 birth:
@@ -46,7 +46,8 @@ projects:
     responsibility:
       - 在云平台上完成基于微服务架构的项目原型开发和前期验证。
       - 设计配置管理服务的接口。
-      - 对将要开发的业务功能进行评估。澄清需求和解决方案。
+      - 对将要开发的业务功能进行评估。
+      - 澄清业务需求以及解决方案。
     content:
       - 修改CMake解决编译问题和支持多平台。
       - 设计基于OpenAPI 3.0规范的RESTful API。
@@ -57,9 +58,10 @@ projects:
   description:
     responsibility:
       - 在基站平台上实现网管软件与网站的后端的功能。
-      - 对逻辑复杂的代码进行重构。定位和解决端到端测试问题。
+      - 对逻辑复杂的代码进行重构。
+      - 定位和解决端到端测试问题。
     content:
-      - 重构日志收集功能的代码，不同类型的收集解耦，使代码维护很方便。
+      - 重构日志收集功能的代码，不同类型的收集解耦，使代码维护简便。
       - 用pytest编写系统模块测试用例，使用LXC容器运行。
 - name: BTSMED
   time: 2016年11月 - 2017年9月
@@ -70,7 +72,7 @@ projects:
     content:
       - 设计基于Spring框架，使用Maven构建的BTSMED软件升级方案。
       - 用Java和Shell实现配置迁移和软件升级，并在Docker容器中调试。
-      - 在长沙客户现场调试问题，协助完成BTSMED的商用，成功切换700左右基站到BTSMED。
+      - 在长沙为客户现场调试问题，协助完成BTSMED的商用，成功切换700左右基站到BTSMED。
 - name: OpenCpri
   time: 2015年7月 - 2016年10月
   description:
@@ -84,7 +86,7 @@ projects:
 contact:
   email: luxiang.dev@gmail.com
   phone: +86 15167145240
-  street: 杭州市滨江区诺基亚通信软件园
+  street: 杭州滨江区诺基亚通信软件园
   city: 杭州
 
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no

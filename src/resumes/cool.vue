@@ -210,6 +210,10 @@ ul {
     margin:3px;
 }
 
+p {
+    margin:5px;
+}
+
 .resume {
   position: relative;
   font-family:'Roboto' !important;
