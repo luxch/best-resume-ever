@@ -9,6 +9,8 @@ const lang = {
     skills: '技能专长',
     projects: '项目',
     contributions: '贡献',
-    about: '自我介绍'
+    about: '自我介绍',
+    responsibility: '主要职责',
+    content: '具体事务'
 };
 export default lang;

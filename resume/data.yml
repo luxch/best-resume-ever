@@ -1,57 +1,19 @@
 /* #*/ export const PERSON = `
 name:
   first: 璐祥
-  middle:
   last: 陈
-about: 在诺基亚通信工作4年半，从实习生到软件工程师，到组里的技术Leader。能快速适应不同的项目。
+about: 有4年半工作经验，参与过多个不同项目，技术比较全面。工作中主动学习好的工作方式。责任心很强，有非常强理解新技术新事物的能力。
 position: 软件工程师
 
 birth:
   year: 26
-  location: 杭州
+  location: 上海
 
 experience:
 - company: 诺基亚通信 | 杭州
   position: 软件工程师
-  timeperiod: 2015.7-至今
-  description:
-    time: 2018年10月-至今
-    project: CU项目
-    key: 主要职责：
-              在云平台上完成基于微服务架构的项目原型开发和前期验证。
-              设计配置管理服务的接口。
-              对将要开发的业务功能进行评估。澄清需求和解决方案。
-    value: 具体事务：
-              修改CMake解决编译问题和支持多平台。
-              设计基于OpenAPI 3.0规范的RESTful API。
-              用PlantUML编写模块架构设计和激活配置流程概念设计的文档。
-              实现核心框架代码。在Gerrit上评审代码，重构复杂代码。
-
-              2017年10月-2018年9月 URI项目
-              主要职责：
-              在基站平台上实现网管软件与网站的后端的功能。
-              对逻辑复杂的代码进行重构。定位和解决端到端测试问题。
-              具体事务：
-              重构日志收集功能的代码，将不同类型的收集分离开，使代码维护很方便。
-              用pytest编写系统模块测试用例，使用LXC容器运行。
-
-              2016年11月-2017年9月 BTSMED项目
-              主要职责：
-              在网管平台虚拟机中实现网管软件管理多基站的业务功能。
-              完成概念设计和解决方案的文档。
-              具体事务：
-              设计基于Spring框架，使用Maven构建的BTSMED软件升级方案。
-              用Java和Shell实现配置迁移和软件升级的功能，并在Docker容器中调试。
-              在长沙客户现场调试问题，协助完成BTSMED的商用，成功切换700左右基站到BTSMED。
-
-              2015年7月-2016年10月 OpenCpri项目
-              主要职责：
-              根据通信协议文档实现基站上Radio的管理功能。
-              编写回归测试用例。定位和修改软件问题。
-              具体事务：
-              用C++实现消息的编解码和流程控制。
-              用Google Test/Mock框架编写单元测试(UT)用例。
-              用ttcn3编写系统模块测试(SCT)用例，使用LXC容器运行。
+  timeperiod: 2015年7月 - 至今
+  description: 在诺基亚通信工作5年(包括半年实习期)，从实习生到软件工程师，成为组里的技术Leader。能快速适应不同的项目。
 
 education:
 - degree: 本科
@@ -75,31 +37,46 @@ knowledge:
 
 projects:
 - name: CU
-  platform: 2018年10月-至今
-  description: 主要职责：
-              在云平台上完成基于微服务架构的项目原型开发和前期验证。
-              设计配置管理服务的接口。
-              对将要开发的业务功能进行评估。澄清需求和解决方案。
-              具体事务：
-              修改CMake解决编译问题和支持多平台。
-              设计基于OpenAPI 3.0规范的RESTful API。
-              用PlantUML编写模块架构设计和激活配置流程概念设计的文档。
-              实现核心框架代码。在Gerrit上审查代码，重构复杂代码。
-
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+  time: 2018年10月 - 至今
+  description:
+    responsibility:
+      - 在云平台上完成基于微服务架构的项目原型开发和前期验证。
+      - 设计配置管理服务的接口。
+      - 对将要开发的业务功能进行评估。澄清需求和解决方案。
+    content:
+      - 修改CMake解决编译问题和支持多平台。
+      - 设计基于OpenAPI 3.0规范的RESTful API。
+      - 用PlantUML编写模块架构设计和激活配置流程概念设计的文档。
+      - 实现核心框架代码。在Gerrit上审查代码，重构复杂代码。
+- name: URI
+  time: 2017年10月 - 2018年9月 
+  description:
+    responsibility:
+      - 在基站平台上实现网管软件与网站的后端的功能。
+      - 对逻辑复杂的代码进行重构。定位和解决端到端测试问题。
+    content:
+      - 重构日志收集功能的代码，将不同类型的收集分离开，使代码维护很方便。
+      - 用pytest编写系统模块测试用例，使用LXC容器运行。
+- name: BTSMED
+  time: 2016年11月 - 2017年9月
+  description:
+    responsibility:
+      - 在网管平台虚拟机中实现网管软件管理多基站的业务功能。
+      - 完成概念设计和解决方案的文档。
+    content:
+      - 设计基于Spring框架，使用Maven构建的BTSMED软件升级方案。
+      - 用Java和Shell实现配置迁移和软件升级的功能，并在Docker容器中调试。
+      - 在长沙客户现场调试问题，协助完成BTSMED的商用，成功切换700左右基站到BTSMED。
+- name: OpenCpri
+  time: 2015年7月 - 2016年10月
+  description:
+    responsibility:
+      - 根据通信协议文档实现基站上Radio的管理功能。
+      - 编写回归测试用例。定位和修改软件问题。
+    content:
+      - 用C++实现消息的编解码和流程控制。
+      - 用Google Test/Mock框架编写单元测试(UT)用例。
+      - 用ttcn3编写系统模块测试(SCT)用例，使用LXC容器运行。
 
 contact:
   email: luxiang.dev@gmail.com
