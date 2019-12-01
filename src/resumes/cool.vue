@@ -95,7 +95,7 @@
             <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
           </div>
 
-          <div class="section-content">
+          <div class="section-content-education">
             <a
               v-for="(education, index) in person.education"
               class="section-content__item"
@@ -132,13 +132,14 @@
                 {{ experience.company }}
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
+              <span class="section-content__text">{{ experience.description }}</span>
             </a>
             <div
               v-if="person.projects"
               class="section-project">
               <div class="section-content-project">
                 <a v-for="(project, index) in person.projects" :key="index"
-                  class="section-content__item-grid"
+                  class="section-content-project__item-grid"
                   :href="project.url">
                   <div class="section-headline-project">
                     <i class="section-headline-project__icon material-icons">code</i>{{ project.name }}{{ lang.projects }}  
@@ -189,7 +190,7 @@ export default Vue.component(name, getVueOptions(name));
 <style lang="less" scoped>
 @accent-color: #34495E;
 @banner-color: #42b883;
-@banner-height: 110px;
+@banner-height: 80px;
 @picture-size: 120px;
 @picture-offset: 35px;
 @base-padding: 30px;
@@ -203,6 +204,10 @@ a {
   &:visited {
     color: inherit;
   }
+}
+
+ul {
+    margin:3px;
 }
 
 .resume {
@@ -319,6 +324,12 @@ a {
   }
 }
 
+.section-content-education {
+  margin-top: 10px;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
 .section-content {
   margin-top: 5px;
   padding-left: 16px;
@@ -395,7 +406,7 @@ a {
     font-weight: 300;
     padding-right: 5px;
   }
-    &__plain,
+  &__plain,
   &__text {
     display: block;
     font-size: 12px;
@@ -411,8 +422,8 @@ a {
   }
 
   &__item-grid {
-    flex: 1 1 0;
-    margin-bottom: 5px;
+    flex: 1 0 0;
+    margin-bottom: 0px;
     padding-right: 5px;
   }
 

@@ -13,7 +13,7 @@ experience:
 - company: 诺基亚通信 | 杭州
   position: 软件工程师
   timeperiod: 2015年7月 - 至今
-  description: 在诺基亚通信工作5年(包括半年实习期)，从实习生到软件工程师，成为组里的技术Leader。能快速适应不同的项目。
+  description: 从实习生到软件工程师，成为组里的技术Leader。能快速适应不同的项目。
 
 education:
 - degree: 本科
@@ -27,12 +27,16 @@ skills:
   level: 95
 - name: Shell
   level: 95
-- name: Java
-  level: 60
 - name: Python
   level: 60
 - name: Docker
   level: 80
+- name: RESTful
+  level: 80
+- name: Java
+  level: 60
+- name: Git/SVN
+  level: 90
 knowledge: 
 
 projects:
@@ -55,7 +59,7 @@ projects:
       - 在基站平台上实现网管软件与网站的后端的功能。
       - 对逻辑复杂的代码进行重构。定位和解决端到端测试问题。
     content:
-      - 重构日志收集功能的代码，将不同类型的收集分离开，使代码维护很方便。
+      - 重构日志收集功能的代码，不同类型的收集解耦，使代码维护很方便。
       - 用pytest编写系统模块测试用例，使用LXC容器运行。
 - name: BTSMED
   time: 2016年11月 - 2017年9月
@@ -65,7 +69,7 @@ projects:
       - 完成概念设计和解决方案的文档。
     content:
       - 设计基于Spring框架，使用Maven构建的BTSMED软件升级方案。
-      - 用Java和Shell实现配置迁移和软件升级的功能，并在Docker容器中调试。
+      - 用Java和Shell实现配置迁移和软件升级，并在Docker容器中调试。
       - 在长沙客户现场调试问题，协助完成BTSMED的商用，成功切换700左右基站到BTSMED。
 - name: OpenCpri
   time: 2015年7月 - 2016年10月
@@ -76,12 +80,11 @@ projects:
     content:
       - 用C++实现消息的编解码和流程控制。
       - 用Google Test/Mock框架编写单元测试(UT)用例。
-      - 用ttcn3编写系统模块测试(SCT)用例，使用LXC容器运行。
 
 contact:
   email: luxiang.dev@gmail.com
   phone: +86 15167145240
-  street: 杭州诺基亚通信软件园
+  street: 杭州市滨江区诺基亚通信软件园
   city: 杭州
 
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
