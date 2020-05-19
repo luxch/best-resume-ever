@@ -2,18 +2,18 @@
 name:
   first: 璐祥
   last: 陈
-about: 有4年半工作经验，参与过多个不同项目，技术比较全面。工作中主动改进工作方式，善于学习应用新技术。责任心很强，具有良好的团队协作能力。
+about: 5年Linux软件开发经验，熟悉敏捷开发。能快速适应多个不同项目，技术比较全面。善于学习应用新技术，责任心很强，具有良好的团队协作能力。
 position: 软件工程师
 
 birth:
-  year: 26
-  location: 上海
+  year: 27
+  location: 杭州
 
 experience:
 - company: 诺基亚通信 | 杭州
   position: 软件工程师
   timeperiod: 2015年7月 - 至今
-  description: 从实习生到软件工程师，成为组里的技术Leader。能快速适应不同的项目。
+  description: 从实习生到软件工程师，现在是组里的Technical Leader。
 
 education:
 - degree: 本科
@@ -29,18 +29,20 @@ skills:
   level: 95
 - name: Python
   level: 60
-- name: Docker
+- name: Docker/K8S
   level: 80
-- name: RESTful
+- name: Linux
   level: 80
-- name: Java
-  level: 60
 - name: Git/SVN
   level: 90
+- name: Gerrit/Jenkins
+  level: 90
+- name: Java
+  level: 60
 knowledge: 
 
 projects:
-- name: CU
+- name: 5G CU/vDU
   time: 2018年10月 - 至今
   description:
     responsibility:
@@ -84,7 +86,7 @@ projects:
       - 用Google Test/Mock框架编写单元测试(UT)用例。
 
 contact:
-  email: luxiang.dev@gmail.com
+  email: 812864208@qq.com
   phone: +86 15167145240
   street: 杭州滨江区诺基亚通信软件园
   city: 杭州

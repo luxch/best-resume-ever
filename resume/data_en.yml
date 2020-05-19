@@ -1,0 +1,96 @@
+/* #*/ export const PERSON = `
+name:
+  first: Luxiang
+  last: Chen
+about: 5 years experience in Linux software development, familiar with agile development. Quickly adapt to a number of different projects, more comprehensive technology. Good at learning and applying new technology, strong sense of responsibility, good team work ability.
+position: Software Engineer
+
+birth:
+  year: 27
+  location: Hangzhou
+
+experience:
+- company: Nokia Shanghai Bell | Hangzhou
+  position: Software Engineer
+  timeperiod: July 2015 - Present
+  description: From intern to software engineer, now I am the Technical Leader of the team.
+
+education:
+- degree: Bachelor
+  school: Jiangxi Normal University
+  timeperiod: September 2011 - July 2015
+  description: major in computer science and technology
+
+# skill level goes 0 to 100
+skills:
+- name: C++
+  level: 95
+- name: Shell
+  level: 95
+- name: Python
+  level: 60
+- name: Docker/K8S
+  level: 80
+- name: Linux
+  level: 80
+- name: Git/SVN
+  level: 90
+- name: Gerrit/Jenkins
+  level: 90
+- name: Java
+  level: 60
+knowledge: 
+
+projects:
+- name: 5G CU/vDU
+  time: October 2018 - Present
+  description:
+    responsibility:
+      - completed project prototype development and early validation based on micro-service architecture on the cloud platform.
+      - design the interface for the configuration management service.
+      - evaluate the feature functions to be developed.
+      - clarify feature requirements and solutions.
+    content:
+      - modify CMake to resolve compilation issues and support multiple platforms.
+      - design a RESTful API based on the OpenAPI 3.0 specification.
+      - prepared documentation for module architecture design and conceptual design of the activation configuration process using PlantUML.
+      - implement core framework code. Review the code on Gerrit and refactor the complex code.
+- name: URI
+  time: October 2017 - September 2018 
+  description:
+    responsibility:
+      - implement the network management software and back-end functions of the website on the base station platform.
+      - refactor logically complex code.
+      - locate and resolve end-to-end testing issues.
+    content:
+      - refactor the code of snapshot function, decouple different types of collection, make the code easy to maintain.
+      - write system module test cases with pytest and run them with LXC container.
+- name: BTSMED
+  time: November 2016 - September 2017
+  description:
+    responsibility:
+      - implement the business function of network management software to manage multiple base stations in the network management platform virtual machine.
+      - complete the conceptual design and solution documentation.
+    content:
+      - design the BTSMED software upgrade scheme based on the Spring framework and built with Maven.
+      - implemented configuration migration and software upgrade with Java and Shell, and debugged in the Docker container.
+      - conducted on-site debugging for customers in Changsha, assisted in the commercial operation of BTSMED, and successfully switched about 700 base stations to BTSMED.
+- name: OpenCpri
+  time: July, 2015 -- October, 2016
+  description:
+    responsibility:
+      - implement the management function of Radio on the base station according to the communication protocol document.
+      - write regression test cases. Locate and modify software issues.
+    content:
+      - C++ implemented message codec and flow control.
+      - wrote unit Test (UT) use cases based on the Google Test/Mock framework.
+
+contact:
+  email: 812864208@qq.com
+  phone: +86 15167145240
+  street: No. 567 Xincheng Road Twin Tower 
+  city: Hangzhou
+
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`

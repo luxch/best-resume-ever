@@ -1,13 +1,15 @@
 // English
 const lang = {
     contact: 'Contact',
-    born: 'Born',
-    bornIn: 'in',
+    born: 'Age',
+    bornIn: 'Residence',
     experience: 'Experience',
     education: 'Education',
     skills: 'Skills',
-    projects: 'Projects',
+    projects: ' Project',
     contributions: 'Contributions',
-    about: 'About me'
+    about: 'About me',
+    responsibility: 'Responsibility',
+    content: 'Content'
 };
 export default lang;
