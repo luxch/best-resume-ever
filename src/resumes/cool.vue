@@ -1,7 +1,7 @@
 <template>
   <div class="resume">
     <div class="banner">
-      <div class="banner__fullname">{{ person.name.last }}{{ person.name.first }}</div>
+      <div class="banner__fullname">{{ person.name.last }} {{ person.name.first }}</div>
       <div class="banner__position">{{ person.position }}</div>
       <div v-if="person.birth" class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
     </div>
@@ -314,8 +314,8 @@ p {
   margin: 2px 0;
 
   &__icon {
-    margin-right: 2px;
-    font-size: 1.1em;
+    margin-right: 1px;
+    font-size: 1.0em;
   }
 }
 
@@ -391,7 +391,7 @@ p {
 .section-content-project {
   margin-top: 0px;
   padding-left: 0px;
-  font-size: 14px;
+  font-size: 12px;
 
   &__item {
     display: block;
@@ -400,23 +400,23 @@ p {
 
   &__header {
     display: block;
-    font-size: 1.1em;
+    font-size: 1.0em;
     font-weight: 500;
   }
 
   &__time {
     flex: 1 1 0;
     font-size: 1.0em;
-    font-weight: 300;
+    font-weight: 250;
     padding-right: 5px;
   }
   &__plain,
   &__text {
     display: block;
-    font-size: 12px;
+    font-size: 11px;
 
     &--light {
-      font-size: 12px;
+      font-size: 11px;
     }
   }
 
